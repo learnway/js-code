@@ -3,6 +3,8 @@ let productEmail = "hello@gmail.com";
 var productName = "NewAI";
 productDetails = "OK";  // wrong way to varriable declare
 
+// Diffrence between const,let,var
+
 // productId = 22;          // never change
 productEmail = "new@gmail.com" // change
 productName = "aone"
