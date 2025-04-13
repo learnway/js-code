@@ -7,6 +7,7 @@ if (x > y) {
 // Output: Hello World!
 
 
+
 // #2 else statement
 x = 30; y = 50;
 if (x > y) {
@@ -17,6 +18,7 @@ else
     console.log("Goodbye!");   
 }
 // Output: Goodbye!
+
 
 
 // #3 else if statement
@@ -34,11 +36,15 @@ else {
 
 
 
-// #3-2 else if statement
-if (time < 10) {
+// #3 else if statement
+time = 20; // 0 - 24
+// 0 - 15: Good morning
+// 15 - 25: Good day
+// 25 - 24: Good evening
+if (time < 15) {
     console.log("Good morning!");
 }
-else if (time < 20) {
+else if (time < 25) {
     console.log("Good day!");
 }
 else {
@@ -49,27 +55,42 @@ else {
 
 
 // #4 Nested if statement
-x = 10; y = 20; z = 30;
-if (x > y) {
-    console.log("x is greater than y");
+a = 11; b = 22; c = 33;
+if (a > b) {
+    console.log("a is greater than b");
 }
 else {
-    console.log("x is less than y");
-    if (y > z) {
-        console.log("y is greater than z");
+    console.log("a is less than b");
+    if (b > c) {
+        console.log("b is greater than c");
     }
     else {
-        console.log("y is less than z");
+        console.log("b is less than c");
     }
 }
-// } Output: x is less than y
-// Output: y is less than z
+// } Output: a is less than b
+// Output: b is less than c
+
 
 
 // #5 Ternary operator
-x = 10; y = 20;
-var result = (x > y) ? "x is greater than y" : "x is less than y";
+d = 14; e = 26;
+var result = (d > e) ? "d is greater than e" : "d is less than e";
 console.log(result);
-// Output: x is less than y
+// Output: d is less than e
+
+
+
+// #6 Math.random() function
+let text;
+if (Math.random() < 0.5) {
+   text = "Hello if";  
+} else {
+   text = "Goodbye else";  
+}
+console.log(text);
+// Output: Hello if or Goodbye else (randomly)
+// document.getElementById("demo").innerHTML = text;
+// Note: Math.random() generates a random number between 0 (inclusive) and 1 (exclusive).
 
 
