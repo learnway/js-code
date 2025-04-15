@@ -1,4 +1,8 @@
 // Loops
+
+// Loops are used to execute a block of code repeatedly until a specified condition is met.
+// JavaScript supports several types of loops, including for, while, and do...while loops.
+
 // #1 Loop For
 for (let i = 0; i < 10; i++) {
     console.log(i);
