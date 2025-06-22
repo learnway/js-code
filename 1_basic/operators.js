@@ -3,14 +3,14 @@
 // Operators are special symbols that perform operations on variables and values.
 // JavaScript has the following types of operators:
 
-// Arithmetic Operators
-// Assignment Operators
-// Comparison Operators
-// Logical Operators
-// Bitwise Operators
-// String Operators
-// Type Operators
-// Conditional (Ternary) Operator
+//  Arithmetic Operators
+//  Assignment Operators
+//  Comparison Operators
+//  Logical Operators
+//  Bitwise Operators
+//  String Operators
+//  Type Operators
+//  Conditional (Ternary) Operator
 
 
 /////////////////////////// Arithmetic Operators ////////////////////////
@@ -20,14 +20,14 @@
 
 // The following table lists the arithmetic operators in JavaScript:
 
-// +  Addition  5 + 3  8
-// -  Subtraction  5 - 3  2
-// *  Multiplication  5 * 3  15
-// /  Division  5 / 3  1.6666666666666667
-// %  Modulus  5 % 3  2  (remainder of 5 divided by 3)
-// **  Exponentiation  5 ** 3  125  (5 raised to the power of 3)
-// ++  Increment  let x = 5; x++;  6  (increases x by 1)
-// --  Decrement  let y = 5; y--;  4  (decreases y by 1)
+//  +  Addition  5 + 3  8
+//  -  Subtraction  5 - 3  2
+//  *  Multiplication  5 * 3  15
+//  /  Division  5 / 3  1.6666666666666667
+//  %  Modulus  5 % 3  2  (remainder of 5 divided by 3)
+//  **  Exponentiation  5 ** 3  125  (5 raised to the power of 3)
+//  ++  Increment  let x = 5; x++;  6  (increases x by 1)
+//  --  Decrement  let y = 5; y--;  4  (decreases y by 1)
 
 
 // Increment and Decrement Operators
